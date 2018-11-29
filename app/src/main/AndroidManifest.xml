@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="angelapamela.reyes.com.recycleart">
+    package="angelapamela.reyes.com.recycleart"
+    android:installLocation="preferExternal">
+
+
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,6 +23,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainMenu"></activity>
+        <activity android:name=".facts"></activity>
+        <activity android:name=".game"></activity>
+        <activity android:name=".Tutorials"></activity>
+        <activity android:name=".OldPaper"></activity>
+        <activity android:name=".BottleCup"></activity>
+        <activity android:name=".Straw"></activity>
+        <activity android:name=".TetraPack"></activity>
+
     </application>
+
 
 </manifest>

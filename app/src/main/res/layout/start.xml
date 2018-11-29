@@ -64,7 +64,7 @@
         app:srcCompat="@drawable/log_nobg" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnstart"
         android:layout_width="188dp"
         android:layout_height="57dp"
         android:layout_marginStart="8dp"
@@ -74,6 +74,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="#339933"
+        android:onClick="process"
         android:text="Start Recycle!"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -81,6 +82,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.945" />
 
 </android.support.constraint.ConstraintLayout>

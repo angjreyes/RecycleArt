@@ -28,14 +28,14 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnh5"
         android:layout_width="49dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
         android:layout_marginBottom="8dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -83,7 +83,7 @@
         app:srcCompat="@drawable/mm_pack" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btncup"
         android:layout_width="118dp"
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
@@ -104,7 +104,7 @@
         app:layout_constraintVertical_bias="0.498" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btntetra"
         android:layout_width="118dp"
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
@@ -143,7 +143,7 @@
         app:srcCompat="@drawable/mm_mag" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnpaper"
         android:layout_width="118dp"
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
@@ -181,7 +181,7 @@
         app:srcCompat="@drawable/mm_straw" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnstraw"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="118dp"
         android:layout_height="44dp"
@@ -192,13 +192,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="#339933"
-        android:text="Button"
+        android:text="Straw"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.836"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955"
-        tools:text="Straws" />
+        app:layout_constraintVertical_bias="0.955" />
 </android.support.constraint.ConstraintLayout>
