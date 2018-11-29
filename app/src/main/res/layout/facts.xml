@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgfinalllll">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="446dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#339933"
+        android:gravity="center"
+        android:text="Facts"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btnh6"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home" />
+
+
+    <ScrollView
+        android:layout_width="356dp"
+        android:layout_height="434dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="1. Humans throw away enough paper and wood each year to heat 50 million houses for 20 years."
+                android:textColor="#943126"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="106dp"
+                android:textColor="#5B2C6F"
+                android:text="2. If we recycled all newspapers, we could save over 250 million trees each and every year."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="159dp"
+                android:textColor="#21618C"
+                android:text="3. Americans will use over 2 and a half million plastic bottles every thirty minutes, and most of them are simply thrown away rather than recycled."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="133dp"
+                android:textColor="#0E6655"
+                android:text="4. The combined weight of the 100 trillion ants on Earth is greater than the combined weight of all 7 billion humans."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="106dp"
+                android:textColor="#239B56"
+                android:text="5. Each day, American businesses generate enough paper to circle the Earth 20 times!"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="111dp"
+                android:textColor="#B9770E"
+                android:text="6. Plastic bags that are thrown into the ocean kill over a million sea creatures a year."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="187dp"
+                android:textColor="#A04000"
+                android:text="7. If garbage is not recycled it may go into landfill. Landfill garbage rots and can produce a dangerous greenhouse gas called methane. Recycling is a great way to fight against global warming"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="126dp"
+                android:textColor="#626567"
+                android:text="8. Recycling one glass bottle can save 20% air pollution and 50% less water pollution than making new bottle from raw materials"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="137dp"
+                android:textColor="#283747"
+                android:text="9. Plastic bags and garbage thrown into our oceans kill more than 1,100,000 marine mammals, fish and sea creatures every year"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="114dp"
+                android:textColor="#17202A"
+                android:text="10. Recycling one glass bottle saves enough energy to power a 100-watt bulb for four hours."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="casual" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
